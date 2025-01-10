@@ -15,8 +15,20 @@ body {
     align-items: center;
 }
 
+.intro {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+}
+
 .intro h2 {
-    font-size: 6rem;
+    font-size: 5rem;
+    line-height: 5.5rem;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    color: gray;
 }
 
 .wrapper {
